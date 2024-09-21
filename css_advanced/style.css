@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+    text-wrap: wrap;
+}
+body{
+    background:url(photos/Object.png);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+}
+header, .banner-container {
+  background-color: inherit; 
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+nav img{
+    height:40%;
+    width: 50px;
+    margin-left: 40px;
+}
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+
+.banner-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+   
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    width: 100%;
+    
+    
+}
+.intro h1{
+    padding-top: 100px;
+    font-size: 100px;
+    
+    margin-bottom: 0;
+}
+
+.intro span{
+    display: inline-block;/* Makes spans block-level elements */
+    color: #fff;
+    padding: 10px 20px;  /*Adds padding around the spans */
+    
+     
+
+}
+.intro button{
+    background-color:blueviolet; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Removes default border */
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.pros{  
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.pro_details
+{
+    
+    display: flex;
+    justify-content: center;
+}
+.detail{
+    padding:0px,10px,20px,10px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.detail img{
+    border-radius: 50%;
+}
+
+.quote-container{
+    background-color: blueviolet;
+    color: #fff;
+    width: 100%;
+    height:400px;
+    
+    
+    
+}
+.quote_box{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote_img img{
+    height: 120px;
+}
+
+.quote_box h3,p{
+    padding-left: 40px;
+    
+}
+.video-container{
+    
+    width: 100%;
+    
+    text-align: center;
+    height: 500px;
+}
+.video-container h2{
+    
+    padding-top: 50px;
+    padding-bottom: 0px;
+    height: 20%;
+}
+.videos{
+    width: 100%;
+    height: 80%;
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.video{
+    
+    height: 300px;
+    width: 19%;
+    border-radius: 10px;
+    margin: 0px 15px;
+    
+    
+}
+.ratings{
+    display: flex;
+    height:50px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: blueviolet;  
+
+
+}
+.smile_img{
+    
+    height: auto;
+    width: 100%;
+}
+.phillip
+{
+    height: 30px;
+    width: 30px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+.video h3{
+   
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 30px;   
+   
+}
+.highlighted{
+    color:blueviolet;
+}
+.video p{
+    
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: left;
+    height:10px 
+    
+   
+}
+.stars{
+    display: flex;
+    justify-content: center;
+    flex: 3;
+    align-items: center;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 30px;
+    color: blueviolet; 
+}
+.stars_img img{
+    
+    height:auto;
+    width: 100%;
+}
+.stars p{
+    flex: 1;
+    text-align: right;
+}
+
+.membership-container{
+    background-color: #071629;
+    text-align: center;
+    height: 450px;
+    color: #ffff;
+}
+.membership{
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+    align-items: center;
+}
+.membership-container h2{
+    height: 20%;
+    padding-top: 50px;
+    font-size: 30px;
+    
+}
+.messages{ 
+    width:250px;
+}
+
+.membership-container button{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background-color: blueviolet;
+}
+    
+.H-text1{
+    color: blueviolet;
+}
+.questions-container{
+    background-color: #fff;
+    text-align:center ;
+    height: 600px;
+}
+.questions-container h2{
+    height: 10%;
+    font-size:50px ;
+    font-weight: 100;
+
+    
+}
+.question-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    height:80% ;
+    padding-left: 130px;
+    padding-right: 130px;
+         
+
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    
+    height:100%;   
+    
+}
+.question{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 40%;
+    text-align: left;
+
+}
+footer{
+    background-color: #071629;
+    color: #fff;
+}
+.footer_container{
+    text-align: center;
+    
+}
+.myfooter{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-right:200px;
+    padding-left: 250px;
+}
+.media{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.footer_image{
+    display: flex;
+    align-items: center;
+    height:100px ;
+}
+.footer_image img{
+    height: auto;
+    width: 50px;
+    
+}
+.media i{
+    background-color:#f0f0f0;
+    color: #071629;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.footer_container p{
+    margin:0;
+}
