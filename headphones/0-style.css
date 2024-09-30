@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 16vh;
+    
+}
+.nav-links{
+    display: flex;
+    gap:2rem;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#FF6565;
+
+}
+p{
+    line-height: 1.5;
+    color: rgb(85, 85,85);
+}
+h1,p{
+    text-align: center;
+}
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    
+    box-sizing: border-box;
+    min-height: fit-content;
+    
+    
+ }
+#home ,.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.intro p ,.intro h1{
+    margin: 0;
+}
+#home .home-container .text_p1, .intro{
+    text-align: center;
+    color: white;
+    
+}
+.text_p1{
+    max-width: 55vw;
+    
+}
+.btn_container{
+    margin-bottom: 3rem;
+}
+.btn{
+    background-color:#FF6565;
+    padding:1rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 5px 2px 20px rgba(0, 0, 0, 0.9);
+}
+header{
+    background:url(images/headphones_hero_1.jpg);
+    background-size: cover ;
+    background-position: center;
+}
